@@ -1,6 +1,8 @@
 # docker-mailcatcher
 An Alpine Linux based Docker container providing a mailcatcher for development environments.
 
+It listens for SMTP connections on port 1025 and provides a frontend interface on port 1080.
+
 ## Usage
 
 
