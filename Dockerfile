@@ -22,4 +22,3 @@ RUN set -ex; \
 EXPOSE 1080 1025
 
 CMD ["mailcatcher", "--ip=0.0.0.0", "--foreground"]
-
