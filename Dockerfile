@@ -3,8 +3,8 @@ FROM ruby:2.6-alpine
 ARG BUILD_DATE
 ARG BUILD_VERSION
 
-LABEL org.opencontainers.image.created=$BUILD_DATE
-LABEL org.opencontainers.image.version=$BUILD_VERSION
+LABEL org.opencontainers.image.created=$BUILD_DATE \
+      org.opencontainers.image.version=$BUILD_VERSION
 
 RUN set -ex; \
 	\
