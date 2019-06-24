@@ -5,8 +5,6 @@ It listens for SMTP connections on port 1025 and provides a frontend interface o
 
 ## Usage
 
-
-
 ### ... via [`docker container run`](https://docs.docker.com/engine/reference/commandline/container_run/)
 
 ```
