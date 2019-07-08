@@ -32,7 +32,7 @@ docker build \
   --build-arg BUILD_VERSION=0.7.1 \
   -t shuppet/mailcatcher:0.7.1 \
   -t shuppet/mailcatcher:latest \
-  $PWD
+$PWD
 ```
 Then the resulting image can be pushed to the [`shuppet/mailcatcher`](https://cloud.docker.com/u/shuppet/repository/docker/shuppet/mailcatcher) Docker Hub repository:
 ```
